@@ -1,0 +1,15 @@
+# OpenClaw system files
+.moltbook-credentials.json
+.openclaw/
+.memory/
+.skills/
+.clawhub/
+todo.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
