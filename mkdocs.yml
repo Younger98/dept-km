@@ -1,0 +1,67 @@
+site_name: 應用系統管理處 - 知識庫
+site_description: MLH100-MLH900 部門共用知識庫
+site_author: 應用系統管理處
+
+# Repository
+repo_name: mlh-knowledge-base
+repo_url: https://github.com/YOUNGER-Knowledge/mlh-knowledge-base
+
+# Navigation
+nav:
+  - 首頁: index.md
+  - 新手上路:
+    - getting-started/quick-start.md
+    - getting-started/environment-setup.md
+  - 系統架構:
+    - architecture/overview.md
+  - API 文件:
+    - api/overview.md
+  - DevOps:
+    - devops/deployment.md
+    - devops/monitoring.md
+  - 安全規範:
+    - security/overview.md
+  - 各部門專區:
+    - departments/mlh100/index.md
+    - departments/mlh200/index.md
+    - departments/mlh300/index.md
+    - departments/mlh500/index.md
+    - departments/mlh600/index.md
+    - departments/mlh700/index.md
+    - departments/mlh800/index.md
+    - departments/mlh900/index.md
+
+# Theme
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+# Plugins
+plugins:
+  - search:
+      lang: zh-TW
+  - awesome-pages
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YOUNGER-Knowledge/mlh-knowledge-base
